@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+public class VectorDemo
+{
+    public static void main(String args[])
+    {
+        Vector<String> vec = new Vector <String>();
+        vec.add("Putti");
+        vec.add("Veera");
+        vec.add("Babu");
+        vec.add("Ncc");
+        vec.addElement("Cadet");
+        System.out.println("The elements of the vector are"+vec);
+    }
+}
